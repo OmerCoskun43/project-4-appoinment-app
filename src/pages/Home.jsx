@@ -1,13 +1,19 @@
 const Home = () => {
   return (
     <div className="home_div">
+      <img
+        className="img1"
+        src="https://c8.alamy.com/comp/2HDXG05/hospital-building-icon-in-flat-style-medical-clinic-vector-illustration-on-isolated-background-medicine-sign-business-concept-2HDXG05.jpg"
+        width="10%"
+        alt="img-1"
+      />
       <h3 className="home_div_h3">CSKN HOSPITAL</h3>
-      {/* <img
-        className="rounded-5"
-        src="https://img.freepik.com/premium-vector/hospital-building-healthcare-cartoon-background-vector-illustration-with-ambulance-car-doctor-patient-nurses-medical-clinic-exterior_2175-1498.jpg"
-        alt="hospital"
-        width="200px"
-      /> */}
+      <img
+        className="img2"
+        src="https://c8.alamy.com/comp/2HDXG05/hospital-building-icon-in-flat-style-medical-clinic-vector-illustration-on-isolated-background-medicine-sign-business-concept-2HDXG05.jpg"
+        width="10%"
+        alt="img-1"
+      />
     </div>
   );
 };

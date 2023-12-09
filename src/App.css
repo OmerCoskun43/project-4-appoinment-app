@@ -1,11 +1,45 @@
-.home_div_h3 {
+.home_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-align: center;
-  padding: 1rem;
+  overflow: hidden;
   border-bottom: 4px solid #06c2ac;
   background-color: #06c2ac;
   color: #0504aa;
   font-weight: bold;
   animation: headerAn 2s ease-in-out infinite;
+
+  & img {
+    border-radius: 3rem;
+    /* animation: imageAn 2s ease-in-out infinite; */
+    border: 3px solid white;
+    object-fit: cover;
+  }
+
+  & .img1 {
+    animation: imageAn 4s ease infinite;
+  }
+  & .img2 {
+    animation: imageAn1 4s ease infinite;
+  }
+}
+
+@keyframes imageAn {
+  0% {
+  }
+  100% {
+    transform: translateX(300%);
+    border: 3px solid red;
+  }
+}
+@keyframes imageAn1 {
+  0% {
+  }
+  100% {
+    transform: translateX(-300%);
+    border: 3px solid red;
+  }
 }
 
 @keyframes headerAn {

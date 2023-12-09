@@ -25,7 +25,9 @@ const Doctors = () => {
   return (
     <>
       <div className="doctors mt-4 container">
-        <h5 className="doctors_h5 mb-3">Our Doctors</h5>
+        <div>
+          <h5 className="doctors_h5 mb-3">Our Doctors</h5>
+        </div>
         <div className="doctors_cards row">
           {docDatas.map((data) => {
             const { id, name, dep, img } = data;
