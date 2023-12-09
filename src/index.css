@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Orbitron", Verdana, sans-serif;
+  text-align: center;
+  background-color: #b4e9e3;
+  height: 120vh;
+}
