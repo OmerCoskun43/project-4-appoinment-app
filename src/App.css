@@ -29,14 +29,14 @@
   0% {
   }
   100% {
-    transform: translateX(300%);
+    transform: translateX(380%);
   }
 }
 @keyframes imageAn1 {
   0% {
   }
   100% {
-    transform: translateX(-300%);
+    transform: translateX(-380%);
   }
 }
 
