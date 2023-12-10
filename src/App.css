@@ -121,6 +121,16 @@
   .appo_cards {
     align-items: center;
   }
+  .appo_modal {
+    width: 350px !important;
+
+    & label {
+      width: 330px !important;
+    }
+    & input {
+      width: 330px !important;
+    }
+  }
 }
 
 .appo_card p {

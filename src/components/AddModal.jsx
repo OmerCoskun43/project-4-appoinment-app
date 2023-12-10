@@ -31,7 +31,7 @@ function AddModal({ shows, appoListt, apDatas }) {
   };
 
   return (
-    <div className="appo_modal ">
+    <div className="appo_modal">
       <p>
         Reservation for &nbsp; <span> {name} </span>{" "}
       </p>
