@@ -8,7 +8,7 @@ export const appointmentData = [
   },
   {
     id: 2,
-    patient: "Dr. Harry Coming",
+    patient: "Harry Going",
     day: new Date().toDateString(),
     consulted: false,
     doctor: "Dr. Jesica White",
