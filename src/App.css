@@ -30,7 +30,6 @@
   }
   100% {
     transform: translateX(300%);
-    border: 3px solid red;
   }
 }
 @keyframes imageAn1 {
@@ -38,7 +37,6 @@
   }
   100% {
     transform: translateX(-300%);
-    border: 3px solid red;
   }
 }
 
