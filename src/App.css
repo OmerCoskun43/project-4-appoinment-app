@@ -116,7 +116,7 @@
 }
 @media screen and (max-width: 580px) {
   .appo_card {
-    width: 380px;
+    width: 350px;
   }
   .appo_cards {
     align-items: center;
