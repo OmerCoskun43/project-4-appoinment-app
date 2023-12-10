@@ -114,6 +114,14 @@
   border-radius: 2rem;
   font-weight: bold;
 }
+@media screen and (max-width: 580px) {
+  .appo_card {
+    width: 420px;
+  }
+  .appo_cards {
+    align-items: center;
+  }
+}
 
 .appo_card p {
   color: purple;

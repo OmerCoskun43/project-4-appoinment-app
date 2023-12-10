@@ -7,7 +7,7 @@ const Appointment = ({ apDatam }) => {
 
   return (
     <div className="appo mt-4">
-      {apDatas.length ? <h4>Appointment List</h4> : ""}
+      {apDatas.length ? <h4 className="text-center">Appointment List</h4> : ""}
 
       <div className="appo_cards ">
         {apDatas.map((data) => {
